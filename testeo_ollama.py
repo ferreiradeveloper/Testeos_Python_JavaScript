@@ -15,4 +15,5 @@ response = client.chat(model='adivino', messages=[
         'role': 'user',
         'content': 'es azul y se ve cada dia'
     }
+
 ])
