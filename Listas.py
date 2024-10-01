@@ -13,3 +13,23 @@ print(bicycles)
 '''
 elemento_1 = bicycles[0]
 print(elemento_1)
+
+## Modificando, Añadiendo y Eliminando Elementos de una Lista
+''' para modificar accedemos a el indixe del elemento'''
+bicycles[4]= 'mongoose'
+bicycles[6]= 'benotto'
+print(bicycles)
+
+# add elementos al final de la lista 
+bicycles.append('ducati')
+print(bicycles)
+
+# insertar elementos en una lista
+''' con el metodo insert() añadimos elementos a una lista en la poscición requerida usando el indice de esta como argumento'''
+bicycles.insert(3,'decatlon')
+print(bicycles)
+
+# Eliminar elementos en una lista
+''' si se conoce el indice del elemento a eliminar podemos usar "del" '''
+del bicycles[8]
+print(bicycles)
